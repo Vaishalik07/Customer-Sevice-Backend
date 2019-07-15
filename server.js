@@ -118,26 +118,13 @@ var post = function() {
 }
 
 var root = {
-/*  Query : {
-       getUrls: () => getUrls()
-     },*/
-    //tinyUrl: () => 'www.tinyurl.com/abc',
-    //addUrl: () =>
     getUrls: () => getUrls(),
     addUrls: (url) => addUrls(url),
     getBusyUrls: () => getBusyUrls(),
     getService: () => getService(),
     post: () => post(),
-/*Mutation: {
-  post: (parent, args) => {
-     const link = {
-      url: randomUrl,
-    }
-    return link
-  }
-},*/
-
 };
+
 // Create an express server and a GraphQL endpoint
 var app = express();
 app.use('/graphql', express_graphql({
