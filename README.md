@@ -83,12 +83,22 @@ type Link {
 
 Screenshots
 
-1. 
+1. Retrieving all the Urls
 ![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS01.png)
+
+2. Retrieve a Service Urls from the pool
 ![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS02.jpeg)
+
+3. All services busy message
 ![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS03.jpeg)
+
+4. Generating a tiny url for the combination of urls
 ![Alt text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS04.jpeg)
+
+5. Get all the Busy Urls
 ![Alt text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS05.jpeg)
+
+6. 
 ![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS06.png)
 
 
