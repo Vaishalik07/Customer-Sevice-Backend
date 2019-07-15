@@ -30,7 +30,7 @@ var distributeLoad = function(min, max){
   return random;
 }
 
-//Function to keep count of the  
+//Function to keep count of the free Urls to whom load can be distributed 
 var getService = function() {
   var free = [];
   for (var [key, value] of requestMap) {
