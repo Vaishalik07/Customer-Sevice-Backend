@@ -68,7 +68,7 @@ type Query {
 }
 ``` 
 
-## Mutation
+### Mutation
 A Mutation is a way to modify server-side data as well.In Graphql, and operation that causes a write has to be sent using a Mutation. 
 
 ```graphql
@@ -81,7 +81,7 @@ type Link {
 }
  ``` 
 
-Screenshots
+## Screenshots
 
 1. Retrieving all the Urls
 ![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS01.png)
