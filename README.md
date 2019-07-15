@@ -80,12 +80,16 @@ type Link {
    url: String!
 }
  ``` 
+
+Screenshots
+
+1. 
 ![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS01.png)
 ![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS02.jpeg)
 ![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS03.jpeg)
 ![Alt text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS04.jpeg)
 ![Alt text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS05.jpeg)
-![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS06.jpeg)
+![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS06.png)
 
 
         
