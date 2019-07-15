@@ -52,7 +52,6 @@ type Query {
 # Mutation
 A Mutation is a way to modify server-side data as well.In Graphql, and operation that causes a write has to be sent using a Mutation. 
 
-Just like in queries, if the mutation field returns an object type, you can ask for nested fields. This can be useful for fetching the new state of an object after an update. Let's look at a simple example mutation:
 ```graphql
 type Mutation {
    post(url: [String]!): Link
