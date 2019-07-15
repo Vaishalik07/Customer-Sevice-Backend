@@ -98,9 +98,6 @@ Screenshots
 5. Get all the Busy Urls
 ![Alt text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS05.jpeg)
 
-6. 
-![Alt Text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS06.png)
-
 
         
             
