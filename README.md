@@ -86,7 +86,8 @@ Add screenshots for request to response from your browser
 // SS for no service available
 // SS for generating a tinyurl
 
-The above will randomly generate the urls to whom requests are being passed
+</br>
+![](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS02.jpeg)
 
 
 
