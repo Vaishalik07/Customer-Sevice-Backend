@@ -1,24 +1,4 @@
 # Customer-Sevice-Backend
-# Problem Statement
-Imagine a scenario where we have four customer service centers and each service center can
-be assigned a certain number of maximum tickets( use 5 as the limit ).
-When a user raises a ticket, each user ticket can be forwarded to any of the customer service
-center. Each customer service center has a specific URL associated with it. But, we do not want
-to expose the specific URLs for each customer service center to the customer, rather, we would
-like to have one common URL.
-Whenever a user raises a ticket, he/she should be given the common link, and the system
-needs to figure out which specific customer center URL it needs to call (the one that’s less
-busy). We need to keep track of the number of users who visit each of the service centers and
-keep a rate limiter so that one service center is not bombarded with many service requests. We
-need to keep track of the number of requests to each of the service centers.
-1. Mutation to generate a new shortened URL for a group of four URLs.
-2. Query to retrieve all the URLs in a group URL.
-3. Query to fetch one random URL in a group and increment the visit count. If the limit for
-all of them has been reached, a message should be returned saying “All our service
-centers are busy, please try again later”.
-4. Query to retrieve the URLs who’s limit has been reached.
-
-# Overview
 
 Clone the repository 
               
@@ -47,10 +27,44 @@ Go to your browser and you can see the graphql interface at
 To retrieve all the services, type 
         
        {getUrls}
-
-To pass on the requests 
        
-       {getService}
+```graphql
+ type ServiceUrl {
+      name: String,
+      url: String
+}
+          
+ type groupUrl {
+      name: [ServiceUrl]
+}
+ ``` 
+ 
+// add what each one of it performs
+
+```graphql
+type Query {
+   getUrls: [String],
+   getBusyUrls: [String],
+   getService: String
+}
+``` 
+
+// add mutation related info
+```graphql
+type Mutation {
+   post(url: [String]!): Link
+}
+
+type Link {
+   url: String!
+}
+ ``` 
+Add screenshots for request to response from your browser
+// SS for all URLS
+// SS for all busy URLS
+// SS for no service available
+// SS for generating a tinyurl
+
 The above will randomly generate the urls to whom requests are being passed
 
 
