@@ -104,16 +104,22 @@ var addUrls = function(newUrl) {
   {
     urlArr.push({"url": newUrl, "shortUrl": getShortUrl(newUrl)})
   }
-  else {
-
-  }
 }
 
-var post = function() {
+// var post = function(urls) {
+//   const link = {
+//     url: randomUrl,
+//   }
+//   this.urlArr = urls
+//   return link
+// }
+
+var post = function(urlArray) {
+  urlArr.concat(urlArray)
+  //this.urlArr = urlArray
   const link = {
     url: randomUrl,
   }
-  
   return link
 }
 
@@ -122,7 +128,8 @@ var root = {
     addUrls: (url) => addUrls(url),
     getBusyUrls: () => getBusyUrls(),
     getService: () => getService(),
-    post: () => post(),
+    //post: () => post(),
+    post: (urlArray) => post(urlArray)
 };
 
 // Create an express server and a GraphQL endpoint
@@ -133,3 +140,5 @@ app.use('/graphql', express_graphql({
     graphiql: true
 }));
 app.listen(4000, () => console.log('Express GraphQL Server Now Running On localhost:4000/graphql'));
+
+
