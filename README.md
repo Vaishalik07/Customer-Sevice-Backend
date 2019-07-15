@@ -80,20 +80,13 @@ type Link {
    url: String!
 }
  ``` 
+Add screenshots for request to response from your browser
+// SS for all URLS
+// SS for all busy URLS
+// SS for no service available
+// SS for generating a tinyurl
 
-
-Screenshots
-1. Retrieving all the Urls
-![ALt text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS01.png)
-
-2.  Retrieve a Service Urls from the pool
-![](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS02.jpeg)
-
-3. All services busy message
-![](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS03.jpeg)
-
-4. Generating a tiny url for the combination of urls
-![](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS04.jpeg)
+The above will randomly generate the urls to whom requests are being passed
 
 
 
