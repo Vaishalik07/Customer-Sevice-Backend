@@ -40,9 +40,9 @@ To retrieve all the services, type
  ``` 
  
 
-getUrls - Retrieves all the service Urls
-getBusyUrls - Returns all the service providers that have reached their threshold limit
-getService - Generates the service address to which traffic will be forwarded
+getUrls - Retrieves all the service Urls </br>
+getBusyUrls - Returns all the service providers that have reached their threshold limit </br>
+getService - Generates the service address to which traffic will be forwarded </br>
 
 ```graphql
 type Query {
