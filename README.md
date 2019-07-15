@@ -98,6 +98,11 @@ type Link {
 5. Get all the Busy Urls
 ![Alt text](https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS05.jpeg)
 
+### Alternate ideas for the implementation
+1. Implementing messaging queues(Kafka/RabbitMq) to capture the request before sending it to a particular service centre.</br>
+2. Using Dynamic Arrays to scale out as necessary
+3. Shard the cluster of Urls to assign it to the respective service centre and balance the load among themselves.
+
 
         
             
