@@ -81,6 +81,9 @@ type Link {
 }
  ``` 
 Add screenshots for request to response from your browser
+![https://github.com/Vaishalik07/Customer-Sevice-Backend/blob/master/Screenshots/SS01.png]
+
+
 // SS for all URLS
 // SS for all busy URLS
 // SS for no service available
