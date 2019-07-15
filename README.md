@@ -2,7 +2,7 @@
 
 Clone the repository 
               
-         git clone 
+         git clone https://github.com/Vaishalik07/Customer-Sevice-Backend.git
  
 Go to the project folder and initialize the npm package
 
@@ -23,6 +23,7 @@ To execute :
 Go to your browser and you can see the graphql interface at
 
        localhost:4000/graphql
+
 
 
         
