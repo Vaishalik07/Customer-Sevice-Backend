@@ -1,4 +1,22 @@
 # Customer-Sevice-Backend
+# Problem Statement
+Imagine a scenario where we have four customer service centers and each service center can
+be assigned a certain number of maximum tickets( use 5 as the limit ).
+When a user raises a ticket, each user ticket can be forwarded to any of the customer service
+center. Each customer service center has a specific URL associated with it. But, we do not want
+to expose the specific URLs for each customer service center to the customer, rather, we would
+like to have one common URL.
+Whenever a user raises a ticket, he/she should be given the common link, and the system
+needs to figure out which specific customer center URL it needs to call (the one that’s less
+busy). We need to keep track of the number of users who visit each of the service centers and
+keep a rate limiter so that one service center is not bombarded with many service requests. We
+need to keep track of the number of requests to each of the service centers.
+1. Mutation to generate a new shortened URL for a group of four URLs.
+2. Query to retrieve all the URLs in a group URL.
+3. Query to fetch one random URL in a group and increment the visit count. If the limit for
+all of them has been reached, a message should be returned saying “All our service
+centers are busy, please try again later”.
+4. Query to retrieve the URLs who’s limit has been reached.
 
 Clone the repository 
               
