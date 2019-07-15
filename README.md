@@ -24,6 +24,15 @@ Go to your browser and you can see the graphql interface at
 
        localhost:4000/graphql
 
+To retrieve all the services, type 
+        
+       {getUrls}
+
+To pass on the requests 
+       
+       {getService}
+The above will randomly generate the urls to whom requests are being passed
+
 
 
         
